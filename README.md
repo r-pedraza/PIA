@@ -2,26 +2,31 @@
 
 Repositorio de entregas de tareas del ciclo IA + Big Data.
 
+Contiene **solo entregas**: una carpeta por tarea con su documento y su PDF. Las
+herramientas y los scripts viven fuera, en el monorepo.
+
 ## Estructura
 
 ```
-tarea01/   # enunciado, notebook/código y memoria
+tarea01/   # README, enunciado.md, entrega.pdf y, si toca, src/ y data/
 tarea02/
 tarea03/
 tarea04/
 tarea05/
 ```
 
-Cada carpeta contiene su propio material. Los ficheros `.gitkeep` solo existen para que git
-registre las carpetas vacías; puedes borrarlos en cuanto pongas contenido real.
+Norma de trabajo con Git: [NORMATIVA.md](NORMATIVA.md). Los ficheros `.gitkeep`
+solo existen para que git registre las carpetas vacías; se borran en cuanto la
+carpeta tiene contenido real.
 
 ## Convención por tarea
 
 ```
 tareaNN/
-├── README.md        # breve explicación: objetivo, cómo ejecutar, resultados
-├── enunciado.*      # opcional, copia del enunciado
-├── src/             # o notebook(s) .ipynb
+├── README.md        # objetivo, contenido y cómo se generó
+├── enunciado.md     # fuente editable (Markdown) del documento entregado
+├── entrega.pdf      # el PDF exacto que se sube a Avanza
+├── src/             # código, si la tarea lo lleva
 └── data/            # datos pequeños (los grandes, ver .gitignore)
 ```
 
@@ -32,6 +37,8 @@ git add -A
 git commit -m "tareaNN: descripción corta"
 git push
 ```
+
+Para ramas por tarea y por ejercicio, ver `NORMATIVA.md`.
 
 ## Entorno
 

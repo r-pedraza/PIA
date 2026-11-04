@@ -1,0 +1,73 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# Testing / cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# IDE / editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Datos voluminosos (descomentar y ajustar si aplica)
+# data/
+# *.csv
+# *.parquet
+# *.zip
+
+# Secretos y configuracion local
+.env
+.env.*
+!.env.example
+*.pem
+secrets.yaml
+
+# Logs
+*.log
+logs/

@@ -71,3 +71,6 @@ secrets.yaml
 # Logs
 *.log
 logs/
+
+# Ficheros generados al ejecutar los ejercicios
+sample_text.txt

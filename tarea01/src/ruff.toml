@@ -1,0 +1,20 @@
+# Configuración de ruff para las entregas de PIA.
+# Ver PYTHON.md: el código debe funcionar en Python 3.9, así que se desactivan
+# las reglas que proponen sintaxis exclusiva de 3.10+ (list[int], X | Y).
+
+target-version = "py39"
+line-length = 100
+
+[lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = [
+    "UP006",  # list[int] en lugar de List[int]: no válido en 3.9
+    "UP007",  # X | Y en lugar de Union[X, Y]: no válido en 3.9
+    "UP035",  # typing.List/Dict/Iterable siguen siendo necesarios en 3.9
+]
+
+[lint.isort]
+known-first-party = ["problema1", "problema2", "problema3"]
+
+[format]
+quote-style = "double"

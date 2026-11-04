@@ -1,25 +1,53 @@
-# PIA · Tarea 1 · Cómo registrarse en GitHub y crear el primer repositorio
+# PIA · Tarea 1
 
-Tutorial del registro en GitHub y de la creación del primer repositorio, con las
-capturas del proceso real.
+Tarea de la unidad 1 de Programación de Inteligencia Artificial. Tres apartados:
 
-## Contenido
+| Apartado | Contenido | Puntos |
+|---|---|---:|
+| 1 | Cuenta en GitHub y primer repositorio, con el proceso explicado | 2 |
+| 2 | Tres problemas de Python | 6 |
+| 3 | Cuenta en Kaggle, competición y dataset | 2 |
 
-- `entrega.pdf` — documento entregado en Avanza (10 páginas, plantilla PIA).
-- `enunciado.md` — fuente editable del documento en Markdown.
+## Contenido de la carpeta
 
-El PDF se regenera desde el Markdown con la plantilla del módulo:
-
-```sh
-/Users/raul/Documents/docker-stack/ServerMonorepo/tools/doc_templates/build.sh enunciado.md
+```
+tarea01/
+├── README.md           este fichero
+├── enunciado.md        fuente editable del apartado 1 (Markdown)
+├── entrega.pdf         apartado 1 entregado en Avanza
+└── src/
+    ├── problema1.py        lista de enteros: quita negativos, duplica y ordena
+    ├── problema2.py        frecuencia de palabras en un fichero de texto
+    ├── problema3.py        intersección, unión y diferencia simétrica con sets
+    ├── test_problema1.py   tests del problema 1
+    ├── test_problema2.py   tests del problema 2
+    └── test_problema3.py   tests del problema 3
 ```
 
-Las capturas referenciadas (`capturas/git-*.png`) están en el material descargado
-de Avanza, en `PIA/2-Unidad-1/ejercicios/capturas/`.
+Normas de código: identificadores en
+inglés, docstrings en inglés, mensajes al usuario en español y compatibilidad con
+Python 3.9.
 
-## Resumen del proceso
+## Qué hace cada problema
 
-1. Alta en GitHub desde https://github.com → **Sign up**.
-2. Verificación del correo y **skip personalization**.
-3. **+ → New repository** con README e `.gitignore`.
-4. Subida del PDF con **Add file → Upload files**.
+**Problema 1 · `clean_list(numbers)`**
+Devuelve una lista nueva sin negativos, sin repetidos y ordenada.
+`[4, -1, 2, 4, 3, -5, 2] → [2, 3, 4]`. Rechaza valores que no sean enteros con
+`TypeError` y no modifica la lista de entrada.
+
+**Problema 2 · `count_frequencies(words, path)`**
+Cuenta cuántas veces aparece cada palabra de la lista en el fichero. Quita
+puntuación, pasa a minúsculas y normaliza tildes, así que `Programación` y
+`PROGRAMACION` cuentan como la misma palabra. Devuelve todas las palabras de la
+lista, aunque aparezcan 0 veces. `print_sorted()` las muestra por orden
+alfabético.
+
+**Problema 3 · `compare_sets(first, second)`**
+Con `set`, calcula intersección (`&`), unión (`|`) y diferencia simétrica (`^`)
+de dos listas de enteros, y devuelve un diccionario con las tres, ordenadas para
+que la salida sea estable.
+
+## Pendiente
+
+- **Apartado 3 · Kaggle**: falta crear la cuenta, entrar en una competición y
+  descargar el dataset con sus pantallazos.

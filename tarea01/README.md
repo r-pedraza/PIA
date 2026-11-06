@@ -15,6 +15,7 @@ tarea01/
 ├── README.md           este fichero
 ├── enunciado.md        fuente editable del apartado 1 (Markdown)
 ├── entrega.pdf         apartado 1 entregado en Avanza
+├── Pedraza_Leon_Raul_PIA01_Tarea.txt   fichero que se sube a Avanza (solo la URL)
 ├── kaggle/             apartado 3: cuenta, competición y dataset
 │   ├── README.md           ficha de la competición y lista de capturas
 │   ├── kaggle.pdf          documento con los pantallazos

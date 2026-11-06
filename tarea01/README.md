@@ -15,6 +15,10 @@ tarea01/
 ├── README.md           este fichero
 ├── enunciado.md        fuente editable del apartado 1 (Markdown)
 ├── entrega.pdf         apartado 1 entregado en Avanza
+├── kaggle/             apartado 3: cuenta, competición y dataset
+│   ├── README.md           ficha de la competición y lista de capturas
+│   ├── kaggle.pdf          documento con los pantallazos
+│   └── capturas/           capturas numeradas 01..08
 └── src/
     ├── problema1.py        lista de enteros: quita negativos, duplica y ordena
     ├── problema2.py        frecuencia de palabras en un fichero de texto
@@ -67,7 +71,14 @@ Con `set`, calcula intersección (`&`), unión (`|`) y diferencia simétrica (`^
 de dos listas de enteros, y devuelve un diccionario con las tres, ordenadas para
 que la salida sea estable.
 
-## Pendiente
+## Apartado 3 · Kaggle
 
-- **Apartado 3 · Kaggle**: falta crear la cuenta, entrar en una competición y
-  descargar el dataset con sus pantallazos.
+Cuenta creada y competición consultada: **Predicting Credit Card Fraud**
+(Playground Series S6E11), dataset de 148 MB en tres CSV. El proceso está
+documentado en `kaggle/kaggle.pdf`; los detalles y la lista de capturas, en
+`kaggle/README.md`.
+
+## Estado
+
+- Apartado 3 completo: `kaggle/kaggle.pdf` con las ocho figuras (cuenta,
+  competición, inscripción y dataset).

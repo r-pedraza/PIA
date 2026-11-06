@@ -29,21 +29,23 @@ La rúbrica del apartado 3 son 2 puntos:
 
 | Criterio | Puntos | Dónde se demuestra |
 |---|---:|---|
-| Se crea una cuenta en Kaggle | 0,75 | `01-cuenta-kaggle.jpg` |
-| Se accede a una competición y se descarga el dataset, con pantallazos del proceso y del dataset | 1,25 | `02` a `08` |
+| Se crea una cuenta en Kaggle | 0,75 | `01` a `03` |
+| Se accede a una competición y se descarga el dataset, con pantallazos del proceso y del dataset | 1,25 | `04` a `10` |
 
 ## Capturas
 
 | # | Fichero | Qué demuestra |
 |---|---|---|
-| 01 | `01-cuenta-kaggle.jpg` | Sesión iniciada como *Raul Pedraza* en Kaggle: la cuenta existe |
-| 02 | `02-competiciones-activas.jpg` | Listado de competiciones con el filtro **Active** aplicado |
-| 03 | `03-competicion-overview.jpg` | Página de la competición: título, plazo, métrica y número de equipos |
-| 04 | `04-inscripcion-competicion.jpg` | **Inscripción**: la competición aparece en *Your Work* con un envío puntuado (6,1) y el puesto sobre 915 equipos |
-| 05 | `05-dataset-ficheros.jpg` | Pestaña Data: los 3 ficheros, 148 MB y el botón *Download All* |
-| 06 | `06-descarga-dataset.jpg` | Descripción del dataset y descarga en curso (`playground-series-s6e11.zip`, 30,9 MB) |
-| 07 | `07-dataset-descargado.jpg` | Finder: el `.zip` y la carpeta extraída en Descargas |
-| 08 | `08-dataset-contenido.jpg` | Contenido del dataset descargado: `train.csv`, `test.csv`, `sample_submission.csv` |
+| 01 | `01-punto-de-partida.jpg` | Kaggle antes de crear la cuenta: la cabecera ofrece *Login* y *Sign Up* |
+| 02 | `02-registro-formulario.jpg` | Formulario de alta: pestaña *Register*, con *Register with Google* y *Register with Email* |
+| 03 | `03-cuenta-creada.jpg` | Sesión iniciada como *Raul Pedraza*: la cuenta existe y está verificada |
+| 04 | `04-competiciones-activas.jpg` | Listado de competiciones con el filtro **Active** aplicado |
+| 05 | `05-competicion-overview.jpg` | Página de la competición: título, plazo, métrica y número de equipos |
+| 06 | `06-inscripcion-competicion.jpg` | **Inscripción**: la competición aparece en *Your Work* con un envío puntuado (6,1) y el puesto sobre 915 equipos |
+| 07 | `07-dataset-ficheros.jpg` | Pestaña Data: los 3 ficheros, 148 MB y el botón *Download All* |
+| 08 | `08-descarga-dataset.jpg` | Descripción del dataset y descarga en curso (`playground-series-s6e11.zip`, 30,9 MB) |
+| 09 | `09-dataset-descargado.jpg` | Finder: el `.zip` y la carpeta extraída en Descargas |
+| 10 | `10-dataset-contenido.jpg` | Contenido del dataset descargado: `train.csv`, `test.csv`, `sample_submission.csv` |
 
 ## Regenerar el PDF
 

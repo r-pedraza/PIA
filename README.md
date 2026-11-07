@@ -14,6 +14,8 @@ herramientas y los scripts viven fuera, en el monorepo.
 | 1 · Unidad 1 | [tarea01/](tarea01/) | Apartado 1 GitHub ([entrega.pdf](tarea01/entrega.pdf)) · apartado 2 Python ([src/](tarea01/src/), 24 tests) · apartado 3 Kaggle ([kaggle.pdf](tarea01/kaggle/kaggle.pdf)) | 10 |
 | 2 · Unidad 2 | [tarea02/](tarea02/) | pendiente | — |
 | 3 · Unidad 3 | [tarea03/](tarea03/) | pendiente | — |
+| 4 · Unidad 4 | [tarea04/](tarea04/) | pendiente | — |
+| 5 · Unidad 5 | [tarea05/](tarea05/) | pendiente | — |
 
 El fichero que se sube a Avanza en la tarea 1 es
 [Pedraza_Leon_Raul_PIA01_Tarea.txt](tarea01/Pedraza_Leon_Raul_PIA01_Tarea.txt),
@@ -21,12 +23,17 @@ con la URL de este repositorio.
 
 ## Cómo comprobar una entrega en dos minutos
 
-```bash
-# 1. Documentos
-open tarea01/entrega.pdf tarea01/kaggle/kaggle.pdf
+Los documentos son los PDF de cada carpeta: [entrega.pdf](tarea01/entrega.pdf)
+(apartado 1) y [kaggle.pdf](tarea01/kaggle/kaggle.pdf) (apartado 3); en macOS se
+abren con `open tarea01/entrega.pdf tarea01/kaggle/kaggle.pdf`.
 
-# 2. Código: 24 tests y estilo
-cd tarea01/src && python -m pytest . -q && python -m ruff check .
+Para el código de la tarea 1 (24 tests y estilo), en cualquier sistema:
+
+```bash
+pip install pytest ruff
+cd tarea01/src
+python -m pytest . -q        # 24 tests
+python -m ruff check .       # estilo
 ```
 
 Los tests también corren solos en cada push (pestaña *Actions*, Python 3.9 y 3.13).
@@ -34,7 +41,7 @@ Los tests también corren solos en cada push (pestaña *Actions*, Python 3.9 y 3
 ## Estructura
 
 ```
-tarea01/   # README, enunciado.md, entrega.pdf y, si toca, src/ y data/
+tarea01/   # README, enunciado.md, entrega.pdf, src/, kaggle/ y el .txt de entrega
 tarea02/
 tarea03/
 tarea04/
@@ -52,7 +59,9 @@ tareaNN/
 ├── README.md        # objetivo, contenido y cómo se generó
 ├── enunciado.md     # fuente editable (Markdown) del documento entregado
 ├── entrega.pdf      # el PDF exacto que se sube a Avanza
+├── Apellido1_Apellido2_Nombre_PIA0N_Tarea.txt   # si la tarea se entrega así
 ├── src/             # código, si la tarea lo lleva
+├── kaggle/          # apartados con capturas y su propio PDF
 └── data/            # datos pequeños (los grandes, ver .gitignore)
 ```
 

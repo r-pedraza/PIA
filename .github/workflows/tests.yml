@@ -1,0 +1,32 @@
+name: tests
+
+# Comprueba el código de las tareas en cada push: pytest y ruff.
+# Si una tarea nueva trae código, añade su carpeta a la matriz de abajo
+# (por ejemplo tarea02/src) con su propio ruff.toml.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.13"]
+        carpeta: ["tarea01/src"]
+    defaults:
+      run:
+        working-directory: ${{ matrix.carpeta }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Instalar pytest y ruff
+        run: pip install "pytest>=8" "ruff>=0.16"
+      - name: Tests
+        run: python -m pytest . -q
+      - name: Estilo
+        run: python -m ruff check .

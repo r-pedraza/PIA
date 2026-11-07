@@ -1,7 +1,5 @@
 # PIA
 
-[![tests](https://github.com/r-pedraza/PIA/actions/workflows/tests.yml/badge.svg)](https://github.com/r-pedraza/PIA/actions/workflows/tests.yml)
-
 Repositorio de entregas de tareas del ciclo IA + Big Data.
 
 Contiene **solo entregas**: una carpeta por tarea con su documento y su PDF. Las

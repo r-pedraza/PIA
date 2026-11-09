@@ -16,7 +16,7 @@ pantallazos del proceso. El documento que se ve en el repositorio es
 | Métrica | ROC AUC (área bajo la curva) |
 | Etiquetas | Beginner · Tabular · Roc Auc Score |
 | Ficheros | `train.csv`, `test.csv`, `sample_submission.csv` |
-| Tamaño total | 148 MB · 3 ficheros · 53 columnas |
+| Tamaño total | 148 MB · 3 ficheros · 26 columnas en `train.csv` |
 | Licencia | Attribution 4.0 International (CC BY 4.0) |
 | Participación al capturar | 912 equipos · 24 días de plazo restante |
 
@@ -48,4 +48,9 @@ La rúbrica del apartado 3 son 2 puntos:
 | 10 | `10-dataset-contenido.jpg` | Contenido del dataset descargado: `train.csv`, `test.csv`, `sample_submission.csv` |
 
 ## Notas
+
+- El dataset **sí** se sube al repositorio, en [`data/`](data/): la rúbrica del
+  apartado 3 pide descargar el dataset y «subir su contenido al repositorio
+  Github». Los tres CSV van sin modificar, con su ficha, sus tamaños y sus
+  `SHA256SUMS` en [`data/README.md`](data/README.md).
 - Las capturas se tomaron el 2026-11-06 a las 15:51.

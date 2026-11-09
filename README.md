@@ -8,7 +8,7 @@ Contiene **solo entregas**: una carpeta por tarea con su documento y su PDF.
 
 | Tarea | Carpeta | Qué contiene | Puntos |
 |---|---|---|---:|
-| 1 · Unidad 1 | [tarea01/](tarea01/) | Apartado 1 GitHub ([entrega.pdf](tarea01/entrega.pdf)) · apartado 2 Python ([src/](tarea01/src/), 24 tests) · apartado 3 Kaggle ([kaggle.pdf](tarea01/kaggle/kaggle.pdf)) | 10 |
+| 1 · Unidad 1 | [tarea01/](tarea01/) | Apartado 1 GitHub ([entrega.pdf](tarea01/entrega.pdf)) · apartado 2 Python ([src/](tarea01/src/), 24 tests) · apartado 3 Kaggle ([kaggle.pdf](tarea01/kaggle/kaggle.pdf) y dataset en [data/](tarea01/kaggle/data/)) | 10 |
 | 2 · Unidad 2 | [tarea02/](tarea02/) | pendiente | — |
 | 3 · Unidad 3 | [tarea03/](tarea03/) | pendiente | — |
 | 4 · Unidad 4 | [tarea04/](tarea04/) | pendiente | — |

@@ -29,9 +29,8 @@ tarea01/
     └── test_problema3.py   tests del problema 3
 ```
 
-Normas de código: identificadores en
-inglés, docstrings en inglés, mensajes al usuario en español y compatibilidad con
-Python 3.9.
+Normas de código: identificadores y docstrings en inglés, mensajes al usuario en
+español y compatibilidad con Python 3.9.
 
 ## Qué hace cada problema
 
